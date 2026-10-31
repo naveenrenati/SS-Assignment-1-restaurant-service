@@ -8,7 +8,8 @@ load_dotenv()
 app = FastAPI(
     title="Restaurant Service",
     description="Manages restaurant profiles and menus — Online Food Ordering System",
-    version="1.0.0"
+    version="1.0.0",
+    redirect_slashes=False
 )
 
 
